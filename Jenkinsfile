@@ -8,6 +8,7 @@ pipeline {
       steps {
         reload()
       }
+        }
         stage ("Clean up"){
             steps {
                 deleteDir()
