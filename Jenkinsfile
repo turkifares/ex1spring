@@ -4,11 +4,7 @@ pipeline {
         maven 'maven'
     }
     stages {
-        stage('Reload Configuration') {
-      steps {
-        reload()
-      }
-        }
+      
         stage ("Clean up"){
             steps {
                 deleteDir()
