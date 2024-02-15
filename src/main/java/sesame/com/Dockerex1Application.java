@@ -14,6 +14,6 @@ public class Dockerex1Application {
 	}
 	@GetMapping("/test")
 	public String hello() {
-		return "Hello World";
+		return "test new hello";
 	}
 }
